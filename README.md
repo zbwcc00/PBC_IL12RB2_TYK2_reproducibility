@@ -1,5 +1,7 @@
 # PBC IL12RB2–TYK2 reproducibility repository
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23690865.svg)](https://doi.org/10.5281/zenodo.23690865)
+
 This repository accompanies the manuscript **“Human genetics and liver single-cell analyses prioritize the IL12RB2–TYK2 axis for therapeutic testing in primary biliary cholangitis: a multi-cohort translational genomics study.”** It contains code, compact derived source data, figure-generation scripts, and audit records needed to inspect and reproduce the reported computational evidence.
 
 Release: **v0.9.1**. Repository file and directory names use portable English ASCII paths. Analysis scripts derive the repository root from their own location and use repository-relative inputs and outputs.
@@ -37,4 +39,4 @@ Generated figures are written to `results/figures/`. The committed reference ren
 
 ## Citation
 
-Use `CITATION.cff`. The repository is prepared for GitHub release and subsequent Zenodo archiving. The final GitHub URL and Zenodo DOI must be inserted only after those records exist.
+Use `CITATION.cff`. Release `v0.9.1` is archived at Zenodo under DOI [10.5281/zenodo.23690865](https://doi.org/10.5281/zenodo.23690865).

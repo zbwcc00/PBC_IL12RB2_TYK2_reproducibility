@@ -3,7 +3,7 @@
   "refreshed": "2026-10-27",
   "repository": ".",
   "file_count_excluding_checksum_manifest": 303,
-  "total_bytes_excluding_checksum_manifest": 59391938,
+  "total_bytes_excluding_checksum_manifest": 59392286,
   "largest_file": "data/derived/analysis/pharmacology/tyk2_safety/locus/08_TYK2_LD_bootstrap_draws.tsv.gz",
   "largest_file_bytes": 23077895,
   "paths_ascii": true
