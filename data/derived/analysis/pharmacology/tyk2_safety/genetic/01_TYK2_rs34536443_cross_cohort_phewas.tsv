@@ -1,0 +1,12 @@
+domain	cohort	phenocode	phenotype	beta_per_C_allele	se	odds_ratio	p_value	cases	controls	global_bonferroni_threshold	passes_global_bonferroni	interpretation
+PBC	FinnGen R12	CHIRBIL_PRIM	Primary biliary cholangitis (PBC)	-0.545517	0.171686	0.579542	0.0014859	760	372273	2.02429e-05	False	prespecified PBC replication
+PBC	UKB-TOPMed	571.6	Primary biliary cirrhosis	-0.63	0.21	0.532592	0.0032	256	398277	3.52361e-05	False	prespecified PBC replication
+Liver fibrosis/cirrhosis	FinnGen R12	K11_FIBROCHIRLIV	Fibrosis and cirrhosis of liver	-0.289787	0.0876739	0.748423	0.000948812	2653	485213	2.02429e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating
+Chronic liver disease/cirrhosis	UKB-TOPMed	571	Chronic liver disease and cirrhosis	-0.087	0.063	0.916677	0.17	2954	398276	3.52361e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating
+NAFLD	FinnGen R12	NAFLD	Nonalcoholic fatty liver disease	-0.150847	0.0704379	0.859979	0.0322285	3504	496844	2.02429e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating
+Autoimmune diseases	FinnGen R12	AUTOIMMUNE	Autoimmune diseases	-0.17014	0.0141322	0.843547	2.21259e-33	128075	372273	2.02429e-05	True	safety/pleiotropy screen; nominal signals are hypothesis-generating
+Tuberculosis	UKB-TOPMed	010	Tuberculosis	-0.45	0.26	0.637628	0.089	166	392087	3.52361e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating
+Septicemia	UKB-TOPMed	038	Septicemia	0.01	0.053	1.01005	0.85	4174	392084	3.52361e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating
+Colorectal cancer	FinnGen R12	C3_COLORECTAL_EXALLC	Colorectal cancer, excluding all cancers (controls excluding all cancers)	0.139377	0.0382716	1.14956	0.000270751	11790	378749	2.02429e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating
+Colorectal cancer	UKB-TOPMed	153	Colorectal cancer	0.034	0.051	1.03458	0.51	4587	380932	3.52361e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating
+Non-Hodgkin lymphoma	UKB-TOPMed	202.2	Non-Hodgkins lymphoma	0.099	0.08	1.10407	0.22	1802	402713	3.52361e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating

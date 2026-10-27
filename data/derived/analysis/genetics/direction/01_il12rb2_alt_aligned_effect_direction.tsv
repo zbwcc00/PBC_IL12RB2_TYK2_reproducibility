@@ -1,0 +1,7 @@
+evidence_layer	source	population_or_tissue	variant_grch38	effect_allele	other_allele	beta_effect_allele	pvalue	interpretation	independence
+PBC_GWAS_discovery	Cordell_2021_GCST90061440	European PBC meta-analysis	1:67354511:C:T	T	C	-0.439362	7e-63	T protects against PBC; C increases PBC risk	index_discovery
+PBC_GWAS_replication	FinnGen_R12_CHIRBIL_PRIM	Finnish	1:67354511:C:T	T	C	-0.422314	2.5493531475035035e-08	T protects against PBC	likely_independent_external_biobank_sample_level_overlap_unverified
+PBC_GWAS_replication	UKB_GCST90436371	British ancestry UK Biobank	1:67354511:C:T	T	C	-0.408	0.000613	T protects against PBC	external_biobank_but_sample_level_overlap_with_index_unverified
+single_cell_eQTL	OneK1K_NK_QTD000620	NK cells; n=951	1:67354511:C:T	T	C	-0.760374	2.53e-76	T lowers IL12RB2 RNA in NK cells	molecular_QTL_not_disease_replication
+bulk_eQTL	GTEx_v10	Whole Blood	1:67354511:C:T	T	C	-0.274501770734787	5.776800730528036e-28	T lowers IL12RB2 RNA in whole blood	independent_molecular_QTL
+CSF_pQTL	GCST90425888_PMID39528825	Cerebrospinal fluid; European; n=3506	1:67354511:C:T	T	C	0.296333	3.3036954103681353e-23	T increases measured CSF IL12RB2 protein; discordant with blood/NK RNA direction	different_compartment_and_protein_assay_not_direct_target_tissue_validation

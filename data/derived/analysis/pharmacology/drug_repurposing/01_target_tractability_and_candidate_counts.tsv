@@ -1,0 +1,7 @@
+target	ensembl_id	candidate_count	small_molecule_approved	small_molecule_high_quality_pocket	antibody_approved	safety_liability_count
+IL12B	ENSG00000113302	8	False	False	True	0
+IL12RB1	ENSG00000096996	0	False	False	False	0
+IL12RB2	ENSG00000081985	0	False	False	False	0
+JAK2	ENSG00000096968	31	True	True	False	2
+STAT4	ENSG00000138378	0	False	False	False	0
+TYK2	ENSG00000105397	17	True	False	False	0

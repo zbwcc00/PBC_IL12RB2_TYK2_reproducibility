@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or derived data, please cite the associated manuscript and software release."
+title: "PBC IL12RB2-TYK2 reproducibility repository"
+type: software
+version: 0.9.1
+date-released: 2026-10-27
+authors:
+  - family-names: Zheng
+    given-names: Bowen
+    orcid: "https://orcid.org/0009-0006-8304-7905"
+  - family-names: Xie
+    given-names: Guanghua
+    orcid: "https://orcid.org/0000-0002-6461-6707"
+  - family-names: Li
+    given-names: Hao
+    orcid: "https://orcid.org/0009-0007-7394-1273"
+license: MIT
+repository-code: "https://github.com/zbwcc00/PBC_IL12RB2_TYK2_reproducibility"

@@ -1,0 +1,11 @@
+asset_class	decision	rationale
+Final PDF/PNG/SVG figures	include	Author-generated outputs; TIFF >100 MB excluded
+Compact figure-source tables	include	Aggregate/deidentified and required for verification
+Selected project-authored scripts	include	MIT-licensed by authors; English repository-relative paths used
+HRA008003 BAM and full count objects	exclude	Human data and large files; retrieve from official accession
+Complete GCST90061440 summary statistics	exclude	373 MB; official accession remains authoritative
+Full 1000G genotype/LD panels	exclude	Large third-party resource; compact derived LD included
+OneK1K, FinnGen, ARIC, MESA source releases	exclude	Third-party access and redistribution terms
+Third-party source repositories	exclude	Link upstream; do not relicense
+R/Python environments and package caches	exclude	Use lock files and session snapshots
+QA renders, partial downloads and temporary files	exclude	Not scientific source assets

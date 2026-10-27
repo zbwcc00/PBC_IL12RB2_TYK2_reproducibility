@@ -1,0 +1,3 @@
+"module"	"package"	"expected_version"	"observed_version"	"version_match"	"source_path"	"sha256"
+"Multi-signal fine-mapping"	"susieR"	"0.14.2"	"0.14.2"	"True"	"source-project/package-metadata/susieR_DESCRIPTION"	"6adac31bedc22b4aa1a1a9ded2d571bfff70fce93bb3debdcbcb20a5fc2a7dc4"
+"Signal-level colocalization"	"coloc"	"5.2.3"	"5.2.3"	"True"	"source-project/package-metadata/coloc_DESCRIPTION"	"ac48b2cb4c3cff8c2e9d1377faf92cfd3744aba9ec92b17a87e912ab3935f340"

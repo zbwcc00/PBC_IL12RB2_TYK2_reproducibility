@@ -1,0 +1,2 @@
+sample_id	condition	union_cell_called	passes_core_qc	final_singlets	final_singlet_median_UMI	final_singlet_median_genes	final_singlet_median_percent_mt
+control_liver1	control	9024	8168	7648	3425.0	1356	8.09606195419344

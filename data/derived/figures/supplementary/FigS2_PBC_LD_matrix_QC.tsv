@@ -1,0 +1,11 @@
+locus_id	pbc_locus	variant_n	matrix_bytes	all_finite_in_cs_block	diagonal_max_abs_error_full	symmetric_max_abs_error_cs_block	exact_same_order_as_statistics	cs_union_variant_n	cs_min_signed_r	cs_max_signed_r
+PBC01	7p14.2-p14.1	4054	65739664	True	0.0	0.0	True	33	0.9139806628227234	1.0
+PBC02	2p25.1	1586	10061584	True	0.0	0.0	True	8	-0.6068922281265259	1.0
+PBC03	1q23.1	3734	55771024	True	0.0	0.0	True	32	0.7292022705078125	1.0
+PBC04	1p31.3	3638	52940176	True	0.0	0.0	True	7	-0.3544045984745025	1.0
+PBC05	17q12	1723	11874916	True	0.0	0.0	True	21	-1.0	1.0
+PBC06	18q22.2	3293	43375396	True	0.0	0.0	True	23	-1.0	1.0
+PBC07	5q31.3	3430	47059600	True	0.0	0.0	True	56	0.9978085160255432	1.0
+PBC08	4q24 (1)	2137	18267076	True	0.0	0.0	True	59	0.909861147403717	1.0
+PBC09	11q13.1	1913	14638276	True	0.0	0.0	True	16	0.8830931186676025	1.0
+PBC10	7q34	2288	20939776	True	0.0	0.0	True	55	0.7371562123298645	1.0

@@ -1,0 +1,2 @@
+sample_id	condition	union_cell_called	passes_core_qc	final_singlets	final_singlet_median_UMI	final_singlet_median_genes	final_singlet_median_percent_mt
+pbc_liver3	PBC	16014	13166	11698	736.0	416	10.6341375942374

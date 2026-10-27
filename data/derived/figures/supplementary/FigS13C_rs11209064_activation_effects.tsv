@@ -1,0 +1,5 @@
+dataset_id	sample_group	condition_label	sample_size	pbc_rsid	pbc_component	pbc_pip	ref	alt	eqtl_beta_per_alt	eqtl_se	eqtl_pvalue	pbc_effect_allele	pbc_other_allele	pbc_log_odds_per_effect_allele	pbc_pvalue	IL12RB2_beta_per_pbc_effect_allele	pbc_risk_increasing_allele	IL12RB2_beta_per_pbc_risk_increasing_allele	risk_increasing_allele_raises_IL12RB2
+QTD000691	combined_CD4_Memory_STIM_40H	anti-CD3-CD28_40h	93	rs11209064	L2	0.161479991291523	G	T	-0.749083	0.122181	9.87843e-08	T	G	-0.254964	4.91551e-16	-0.749083	G	0.749083	True
+QTD000694	combined_CD4_Memory_UNS_16H	naive	106	rs11209064	L2	0.161479991291523	G	T	-0.104065	0.165578	0.531783	T	G	-0.254964	4.91551e-16	-0.104065	G	0.104065	True
+QTD000707	TCM_UNS_16H	naive	106	rs11209064	L2	0.161479991291523	G	T	0.177822	0.175183	0.313673	T	G	-0.254964	4.91551e-16	0.177822	G	-0.177822	False
+QTD000708	TCM_STIM_40H	anti-CD3-CD28_40h	91	rs11209064	L2	0.161479991291523	G	T	-0.754381	0.131795	4.96095e-07	T	G	-0.254964	4.91551e-16	-0.754381	G	0.754381	True

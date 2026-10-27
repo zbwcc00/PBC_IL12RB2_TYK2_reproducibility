@@ -1,0 +1,7 @@
+step	layer	source	effect_allele	beta_on_risk_allele	p_value	inference	variant	harmonization
+1	PBC GWAS discovery	Cordell_2021_GCST90061440	C (risk; sign-inverted from reported T)	0.439362	7e-63	C increases PBC risk	rs6679356	All coefficients are shown for C; source files reported T as effect allele
+2	PBC GWAS replication	FinnGen_R12_CHIRBIL_PRIM	C (risk; sign-inverted from reported T)	0.422314	2.5493531475035e-08	C increases PBC risk in FinnGen	rs6679356	All coefficients are shown for C; source files reported T as effect allele
+3	PBC GWAS replication	UKB_GCST90436371	C (risk; sign-inverted from reported T)	0.408	0.000613	C increases PBC risk in UKB	rs6679356	All coefficients are shown for C; source files reported T as effect allele
+4	NK-cell RNA	OneK1K_NK_QTD000620	C (risk; sign-inverted from reported T)	0.760374	2.53e-76	C increases IL12RB2 RNA in NK cells	rs6679356	All coefficients are shown for C; source files reported T as effect allele
+5	Whole-blood RNA	GTEx_v10	C (risk; sign-inverted from reported T)	0.274501770734787	5.77680073052804e-28	C increases IL12RB2 RNA in whole blood	rs6679356	All coefficients are shown for C; source files reported T as effect allele
+6	CSF protein	GCST90425888_PMID39528825	C (risk; sign-inverted from reported T)	-0.296333	3.30369541036814e-23	C lowers measured CSF protein, discordant with RNA	rs6679356	All coefficients are shown for C; source files reported T as effect allele

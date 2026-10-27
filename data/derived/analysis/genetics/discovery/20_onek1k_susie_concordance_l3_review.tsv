@@ -1,0 +1,3 @@
+analysis_id	pbc_locus	gene_symbol	gene_id	sample_group	sample_size	variant_n	pbc_converged	pbc_credible_set_n	pbc_top_snp	pbc_top_pip	pbc_rss_s_hat	pbc_kriging_outlier_n	eqtl_converged	eqtl_credible_set_n	eqtl_top_snp	eqtl_top_pip	eqtl_rss_s_hat	eqtl_kriging_outlier_n	ld_minimum_eigenvalue	ld_negative_eigenvalue_n
+SA09	1p31.3	IL12RB2	ENSG00000081985	NK	951	3442	TRUE	3	rs6679356	0.950032213595332	0.0747450154641833	0	TRUE	3	rs56282065	1	0.047745978968342	0	-1.3470038347184e-06	3
+SA19	4q24 (1)	NFKB1	ENSG00000109320	CD4_TCM	954	1632	TRUE	1	rs7674640	0.0950327779877148	0.0343927666912535	0	FALSE	3	rs13112561	1	0.0202535391540604	0	-1.1043620608537e-06	1

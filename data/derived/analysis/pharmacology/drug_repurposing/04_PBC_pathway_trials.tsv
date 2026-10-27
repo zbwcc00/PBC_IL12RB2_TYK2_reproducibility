@@ -1,0 +1,3 @@
+nct_id	title	status	why_stopped	actual_enrollment	primary_result
+NCT01389973	A Study of Efficacy and Safety of Ustekinumab in Patients With Primary Biliary Cirrhosis (PBC) Who Had an Inadequate Response to Ursodeoxycholic Acid	COMPLETED		20	"[{""title"": ""Part 1: Number of Participants With Alkaline Phosphatase (ALP) Response at Week 12"", ""classes"": [{""categories"": [{""measurements"": [{""groupId"": ""OG000"", ""value"": ""0""}]}]}]}]"
+NCT03742973	A Study of Baricitinib (LY3009104) in Participants With Primary Biliary Cholangitis Who do Not Respond or Cannot Take UDCA	TERMINATED	Study was terminated due to enrollment futility.	2	"[{""title"": ""Change From Baseline in Alkaline Phosphatase (ALP)"", ""classes"": null}]"

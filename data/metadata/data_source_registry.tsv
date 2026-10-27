@@ -1,0 +1,26 @@
+source_id	resource	accession_or_version	role	official_url	retrieved	verification
+D01	GWAS Catalog	GCST90061440	PBC discovery GWAS	https://ftp.ebi.ac.uk/pub/databases/gwas/summary_statistics/GCST90061001-GCST90062000/GCST90061440/	2026-10-19	Official metadata YAML and summary-statistic directory checked
+D02	OneK1K	OneK1K release hosted at onek1k.org	Discovery single-cell eQTL	https://onek1k.org/	2026-10-19	Official resource and Yazar paper checked
+D03	eQTL Catalogue	r8_beta	External molecular-QTL SuSiE outputs	https://www.ebi.ac.uk/eqtl/	2026-10-19	Dataset IDs and study PMIDs checked
+D04	1000 Genomes Project	Phase 3 EUR, n=503	External signed LD	https://www.internationalgenome.org/	2026-10-19	Consortium paper and local panel composition checked
+D05	FinnGen	R12 CHIRBIL_PRIM	Independent disease replication	https://r12.finngen.fi/pheno/CHIRBIL_PRIM	2026-10-19	Official R12 manifest: 760 cases, 372273 controls
+D06	GWAS Catalog	GCST90425888	CSF IL12RB2 pQTL	https://www.ebi.ac.uk/gwas/studies/GCST90425888	2026-10-19	Accession linked to PMID 39528825
+D07	GSA-Human	HRA008003	Primary PBC liver single-cell BAM cohort	https://ngdc.cncb.ac.cn/gsa-human/browse/HRA008003	2026-10-19	Original paper, official MD5 and ten BAM files checked
+D08	GSA-Human	HRA002347	External PBC liver single-cell context	https://ngdc.cncb.ac.cn/gsa-human/browse/HRA002347	2026-10-19	Original paper and 5-prime/3-prime donor overlap checked
+D09	GEO	GSE270739	Within-PBC antigen-context single-cell analysis	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE270739	2026-10-19	GEO metadata, clinical supplement and paper checked
+D10	GEO	GSE243981	Liver atlas overlap audit	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE243981	2026-10-19	Official GEO record and PMID 38199298 checked
+D11	GEO	GSE281263	PDC-E2 epitope single-cell audit	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE281263	2026-10-19	Official GEO record and PMID 39476446 checked
+D12	GEO	GSE119600	PBC whole-blood bulk expression	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119600	2026-10-19	Official GEO record and PMID 31076612 checked
+D13	GEO	GSE159676	PBC liver bulk expression	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159676	2026-10-19	Official GEO record and PMID 35278227 checked
+D14	GEO	GSE79850	PBC liver NanoString clinical-risk expression	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE79850	2026-10-19	Official GEO record and PMID 27913155 checked
+D15	GEO	GSE138888	PBC double-negative T-cell RNA-seq	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138888	2026-10-19	Official GEO record checked; no linked PubMed ID in GEO
+D16	PRIDE	PXD083842	PBC liver/plasma DIA proteomics	https://www.ebi.ac.uk/pride/archive/projects/PXD083842	2026-10-19	Official API, CC0 processed matrices and DOI checked; submission PARTIAL
+D17	ClinicalTrials.gov	NCT01389973	Ustekinumab PBC counterevidence	https://clinicaltrials.gov/study/NCT01389973	2026-10-19	Official results record and original paper checked
+D18	ClinicalTrials.gov	NCT03742973	Baricitinib PBC counterevidence	https://clinicaltrials.gov/study/NCT03742973	2026-10-19	Official results record and original report checked
+D19	FDA	NDA214958 supplement 006; SPL set ff4d7258-5068-4cdf-9692-8cae04c3198e; effective 2026-06-30	Deucravacitinib safety and hepatic-impairment gate	https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/214958s006sdn685lbl.pdf	2026-10-19	Official Drugs@FDA/openFDA record; label posted 2026-07-10; PDF archived locally with SHA-256 e2f4f3fef90ea007a8593ce0366e78846329dfb90149ccc237b549eab952485c
+D20	RCSB PDB	8XRP; 8YI7	IL12RB2 structural druggability audit	https://www.rcsb.org/	2026-10-19	Official structure records checked
+D21	Open Targets	Platform release accessed 2026-10-14	Target-disease and drug annotation	https://platform.opentargets.org/	2026-10-19	Official platform plus platform methods paper
+D22	ChEMBL	Current web release accessed 2026-10-14	Target/modality/activity-series audit	https://www.ebi.ac.uk/chembl/	2026-10-19	Official database plus ChEMBL 2023 paper
+D23	Genebass	UK Biobank exome association browser	TYK2 burden safety audit	https://genebass.org/	2026-10-19	Original resource paper checked
+D24	CELLxGENE	collection 0c8a364b-97b5-4cc8-a593-23c38c6f0ac5; snRNA dataset 1873a18a-66fd-4a4d-8277-a872c93f5b59; asset version 34702b40-d0ac-4ec2-8871-776ca012efd0	Liver atlas reference and external lrNK-cNK context	https://cellxgene.cziscience.com/collections/0c8a364b-97b5-4cc8-a593-23c38c6f0ac5	2026-10-19	Collection and exact snRNA dataset/version recovered from locked local audit; overlapping PBC donors not recounted
+D25	UKB-TOPMed PheWeb	phecode 571.6, Primary biliary cirrhosis	Independent TYK2 rs34536443 PBC estimate; 256 cases and 398277 controls	https://pheweb.org/UKB-TOPMed/pheno/571.6	2026-10-19	Phenotype identifier and sample counts recovered from locked cross-cohort PheWAS table

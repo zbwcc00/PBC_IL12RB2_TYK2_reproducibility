@@ -1,0 +1,8 @@
+parameter	value
+cells	69436
+donors	10
+HVGs	2000
+embedding	fastMNN corrected PCs + UMAP
+batch_variable	donor/sample
+umap_seed	51005
+inferential_role	visualization only; disease tests use donor-level pseudobulk

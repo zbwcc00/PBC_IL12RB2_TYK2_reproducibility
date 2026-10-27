@@ -1,0 +1,4 @@
+question	answer	rationale
+Is IL12RB2 reproducibly higher in lrNK than cNK across independent liver scRNA cohorts?	directionally_consistent_but_heterogeneous	3/3 independent cohorts positive; Hartung-Knapp random-effects P=0.07904; I2=98.4%
+Can the result be interpreted as PBC case-control differential expression?	no_cell_identity_only	The paired contrast compares cell types within donor and is not a disease-effect test.
+Can HRA002347 3prime be counted as an independent cohort?	no_same_donors_platform_sensitivity_only	The 5prime and 3prime assays profile the same nine donors.

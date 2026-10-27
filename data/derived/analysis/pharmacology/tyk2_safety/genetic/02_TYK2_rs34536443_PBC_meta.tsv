@@ -1,0 +1,2 @@
+variant	effect_allele	outcome	model	cohorts	total_cases	total_controls	beta	se	odds_ratio	ci95_low	ci95_high	p_value	Q	I2_percent	evidence_role
+rs34536443	C (p.Pro1104Ala partial loss-of-function)	Primary biliary cholangitis/cirrhosis	fixed-effect inverse-variance meta-analysis	FinnGen R12; UKB-TOPMed	1016	770550	-0.579363	0.132919	0.560255	0.431761	0.72699	1.30791e-05	0.0970068	0	prespecified cross-cohort human genetic triangulation; not an agnostic PheWAS discovery
