@@ -1,0 +1,37 @@
+{
+  "title": "PBC IL12RB2-TYK2 reproducibility repository",
+  "description": "Reproducibility code, compact derived data, figure-generation scripts, and audit records supporting a multi-cohort translational genomics study that prioritizes the IL12RB2-TYK2 axis for therapeutic testing in primary biliary cholangitis.",
+  "creators": [
+    {
+      "name": "Zheng, Bowen",
+      "affiliation": "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China",
+      "orcid": "0009-0006-8304-7905"
+    },
+    {
+      "name": "Xie, Guanghua",
+      "affiliation": "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China",
+      "orcid": "0000-0002-6461-6707"
+    },
+    {
+      "name": "Li, Hao",
+      "affiliation": "Division of Hepatobiliary Pancreatic Surgery, The Affiliated Hospital of Yanbian University, Yanji 133000, China",
+      "orcid": "0009-0007-7394-1273"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "0.9.1",
+  "publication_date": "2026-10-27",
+  "language": "eng",
+  "keywords": [
+    "primary biliary cholangitis",
+    "IL12RB2",
+    "TYK2",
+    "fine-mapping",
+    "colocalization",
+    "single-cell RNA sequencing",
+    "translational genomics",
+    "drug target prioritization"
+  ]
+}
