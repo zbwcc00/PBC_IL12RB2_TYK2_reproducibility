@@ -2,7 +2,7 @@
 
 The repository distributes only compact derived data required for figure reproduction and audit. Raw human sequencing data and large external datasets are not redistributed.
 
-The versioned reproducibility archive is available from Zenodo at [10.5281/zenodo.23690865](https://doi.org/10.5281/zenodo.23690865), with source control and release assets hosted at [GitHub](https://github.com/zbwcc00/PBC_IL12RB2_TYK2_reproducibility).
+The versioned reproducibility archive is available from Zenodo under concept DOI [10.5281/zenodo.23690864](https://doi.org/10.5281/zenodo.23690864), with source control and release assets hosted at [GitHub](https://github.com/zbwcc00/PBC_IL12RB2_TYK2_reproducibility).
 
 | Resource | Accession/version | Repository use | Redistribution decision |
 |---|---|---|---|

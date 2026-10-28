@@ -1,10 +1,10 @@
 # PBC IL12RB2–TYK2 reproducibility repository
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23690865.svg)](https://doi.org/10.5281/zenodo.23690865)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23690864.svg)](https://doi.org/10.5281/zenodo.23690864)
 
 This repository accompanies the manuscript **“Human genetics and liver single-cell analyses prioritize the IL12RB2–TYK2 axis for therapeutic testing in primary biliary cholangitis: a multi-cohort translational genomics study.”** It contains code, compact derived source data, figure-generation scripts, and audit records needed to inspect and reproduce the reported computational evidence.
 
-Local submission candidate: **v1.0.0-submission**. The latest archived public release remains **v0.9.1** at Zenodo. Repository file and directory names use portable English ASCII paths. Analysis scripts derive the repository root from their own location and use repository-relative inputs and outputs.
+Release: **v1.0.0**. Versioned releases are archived at Zenodo under concept DOI [10.5281/zenodo.23690864](https://doi.org/10.5281/zenodo.23690864). Repository file and directory names use portable English ASCII paths. Analysis scripts derive the repository root from their own location and use repository-relative inputs and outputs.
 
 ## What is included
 
@@ -44,4 +44,4 @@ For full upstream reanalysis, install `environment/requirements-upstream.txt` an
 
 ## Citation
 
-Use `CITATION.cff`. Archived release `v0.9.1` is available at Zenodo under DOI [10.5281/zenodo.23690865](https://doi.org/10.5281/zenodo.23690865). The `v1.0.0-submission` candidate has not yet been published to Zenodo.
+Use `CITATION.cff` and cite the version-specific DOI shown on the Zenodo record. The release series is available under concept DOI [10.5281/zenodo.23690864](https://doi.org/10.5281/zenodo.23690864).
