@@ -1,0 +1,4 @@
+-r requirements-public.txt
+anndata==0.13.4
+h5py==3.16.0
+openpyxl==3.1.5

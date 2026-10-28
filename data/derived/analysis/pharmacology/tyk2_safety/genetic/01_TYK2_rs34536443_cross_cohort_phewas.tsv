@@ -1,6 +1,6 @@
 domain	cohort	phenocode	phenotype	beta_per_C_allele	se	odds_ratio	p_value	cases	controls	global_bonferroni_threshold	passes_global_bonferroni	interpretation
-PBC	FinnGen R12	CHIRBIL_PRIM	Primary biliary cholangitis (PBC)	-0.545517	0.171686	0.579542	0.0014859	760	372273	2.02429e-05	False	prespecified PBC replication
-PBC	UKB-TOPMed	571.6	Primary biliary cirrhosis	-0.63	0.21	0.532592	0.0032	256	398277	3.52361e-05	False	prespecified PBC replication
+PBC	FinnGen R12	CHIRBIL_PRIM	Primary biliary cholangitis (PBC)	-0.545517	0.171686	0.579542	0.0014859	760	372273	2.02429e-05	False	analysis-plan-defined PBC replication
+PBC	UKB-TOPMed	571.6	Primary biliary cirrhosis	-0.63	0.21	0.532592	0.0032	256	398277	3.52361e-05	False	analysis-plan-defined PBC replication
 Liver fibrosis/cirrhosis	FinnGen R12	K11_FIBROCHIRLIV	Fibrosis and cirrhosis of liver	-0.289787	0.0876739	0.748423	0.000948812	2653	485213	2.02429e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating
 Chronic liver disease/cirrhosis	UKB-TOPMed	571	Chronic liver disease and cirrhosis	-0.087	0.063	0.916677	0.17	2954	398276	3.52361e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating
 NAFLD	FinnGen R12	NAFLD	Nonalcoholic fatty liver disease	-0.150847	0.0704379	0.859979	0.0322285	3504	496844	2.02429e-05	False	safety/pleiotropy screen; nominal signals are hypothesis-generating

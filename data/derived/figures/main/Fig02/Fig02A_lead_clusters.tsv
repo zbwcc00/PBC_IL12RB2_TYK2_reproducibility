@@ -1,4 +1,4 @@
-﻿variant_id	chromosome	base_pair_location	effect_allele	other_allele	p_value	beta	standard_error	in_HLA_GRCh37	screening_method
+variant_id	chromosome	base_pair_location	effect_allele	other_allele	p_value	beta	standard_error	in_HLA_GRCh37	screening_method
 rs7774434	6	32657578	C	T	3.684e-104	0.470454	0.0216556099935116	True	lowest-P then +/-1 Mb exclusion; not LD clumping
 rs6679356	1	67820194	C	T	6.61382e-63	0.439362	0.0261433921580805	False	lowest-P then +/-1 Mb exclusion; not LD clumping
 rs485789	3	159730148	T	G	1.96388e-55	-0.353865	0.0225217609301027	False	lowest-P then +/-1 Mb exclusion; not LD clumping

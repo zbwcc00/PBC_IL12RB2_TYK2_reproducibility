@@ -1,0 +1,4 @@
+step	layer	source	effect_allele	beta_on_risk_allele	p_value	inference	variant	harmonization	beta	p	se	label
+1	PBC GWAS discovery	Cordell_2021_GCST90061440	C (risk; sign-inverted from reported T)	0.439362	7e-63	C increases PBC risk	rs6679356	All coefficients are shown for C; source files reported T as effect allele	0.439362	7e-63	0.026250342062426456	Cordell discovery
+2	PBC GWAS replication	FinnGen_R12_CHIRBIL_PRIM	C (risk; sign-inverted from reported T)	0.422314	2.5493531475035e-08	C increases PBC risk in FinnGen	rs6679356	All coefficients are shown for C; source files reported T as effect allele	0.422314	2.5493531475035e-08	0.0758212	FinnGen R12
+3	PBC GWAS replication	UKB_GCST90436371	C (risk; sign-inverted from reported T)	0.408	0.000613	C increases PBC risk in UKB	rs6679356	All coefficients are shown for C; source files reported T as effect allele	0.408	0.000613	0.11909639933185215	UK Biobank

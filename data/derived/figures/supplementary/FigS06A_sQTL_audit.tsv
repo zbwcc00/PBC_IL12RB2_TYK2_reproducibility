@@ -1,0 +1,6 @@
+resource	query	variant	associated_gene	gencode_id	tissue	phenotype_id	p_value	NES	result	interpretation
+GTEx v10 API	IL12RB2 gene-directed sQTL query 1	rs6679356	IL12RB2	ENSG00000081985	all queried tissues				0 records (API total=0)	No current GTEx evidence that rs6679356 is an IL12RB2 splice QTL
+GTEx v10 API	IL12RB2 gene-directed sQTL query 3	rs6679356	IL12RB2	ENSG00000081985	all queried tissues				0 records (API total=0)	No current GTEx evidence that rs6679356 is an IL12RB2 splice QTL
+GTEx v10 API	variant-directed sQTL query	rs6679356	SERBP1	ENSG00000142864.15	Artery_Tibial	chr1:67417166:67420009:clu_1270_-:ENSG00000142864.15	7.84953504093982e-06	0.2904317080974579	association returned	Neighboring SERBP1 splice association; must not be attributed to IL12RB2
+GTEx v10 API	variant-directed sQTL query	rs6679356	SERBP1	ENSG00000142864.15	Adipose_Visceral_Omentum	chr1:67415339:67420009:clu_1393_-:ENSG00000142864.15	4.916315090547899e-06	-0.2136296033859253	association returned	Neighboring SERBP1 splice association; must not be attributed to IL12RB2
+GTEx v10 API	variant-directed sQTL query	rs6679356	SERBP1	ENSG00000142864.15	Adipose_Visceral_Omentum	chr1:67417166:67420009:clu_1393_-:ENSG00000142864.15	1.1452579035671189e-05	0.2342949360609054	association returned	Neighboring SERBP1 splice association; must not be attributed to IL12RB2

@@ -1,4 +1,6 @@
 .venv/
+.pip-cache/
+.tmp/
 __pycache__/
 *.py[cod]
 .Rhistory

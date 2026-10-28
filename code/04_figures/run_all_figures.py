@@ -16,11 +16,11 @@ SCRIPTS = [
     "FigS01_genetic_screen_coloc_QC.py",
     "FigS02_PBC_local_LD_SuSiE_QC.py",
     "FigS03_competing_genes.py",
-    "FigS04_FinnGen_UKB_QC.py",
-    "FigS05_splicing_protein_conflict.py",
-    "FigS06_S11.py",
-    "FigS12_external_donor_pseudobulk.py",
-    "FigS13_mechanistic_context.py",
+    "FigS05_FinnGen_UKB_QC.py",
+    "FigS06_splicing_protein_conflict.py",
+    "FigS07_S13_multifigure.py",
+    "FigS11_external_donor_pseudobulk.py",
+    "FigS04_mechanistic_context.py",
 ]
 
 for script in SCRIPTS:

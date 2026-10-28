@@ -1,4 +1,4 @@
-﻿metric	n_independent_patients	mean_paired_difference	ci95_low	ci95_high	paired_t_p_two_sided	exact_signflip_p_two_sided	positive_direction_n	zero_direction_n	analysis
+metric	n_independent_patients	mean_paired_difference	ci95_low	ci95_high	paired_t_p_two_sided	exact_signflip_p_two_sided	positive_direction_n	zero_direction_n	analysis
 IL12RB2_log2CPM	5	2.2221180202888404	-2.891341882911043	7.335577923488724	0.29408592713977044	0.5	2	0	pure_PBC
 IL12RB2_positive_fraction	5	0.03141078920016606	-0.11414693965424651	0.17696851805457864	0.581357665990387	0.875	2	0	pure_PBC
 IL12RB2_log2CPM	6	2.1559660800305296	-1.7133248454102619	6.025257005471321	0.21148048141178555	0.3125	3	0	PBC_plus_AIH_PBC_overlap

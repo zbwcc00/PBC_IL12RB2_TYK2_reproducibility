@@ -282,8 +282,9 @@ axD.text(0.045, 0.14,
 
 
 fig.text(0.075, 0.022,
-         r"Evidence classes at strict $p_{12}=1\times10^{-6}$: strong PP.H4$\geq$0.90; candidate 0.50–0.90; exploratory 0.10–0.50; "
-         "no support <0.10. Combinations sharing one PBC locus are not independent discoveries.",
+         r"Strict $p_{12}=1\times10^{-6}$ classes: strong, PP.H4$\geq$0.80 and H4/(H3+H4)$\geq$0.90; "
+         r"candidate, PP.H4$\geq$0.50 unless strong; exploratory, PP.H4$\geq$0.20; no support, PP.H4$<$0.20. "
+         "Relaxed priors cannot upgrade a class; same-locus combinations are not independent discoveries.",
          ha="left", va="bottom", fontsize=6.6, color=MID)
 
 png = OUT / "FigS01_genetic_screen_coloc_QC_final.png"

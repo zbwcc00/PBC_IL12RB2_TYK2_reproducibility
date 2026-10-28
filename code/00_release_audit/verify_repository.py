@@ -11,7 +11,16 @@ import pandas as pd
 REPO = Path(__file__).resolve().parents[2]
 MAX_GITHUB_BYTES = 100 * 1024 * 1024
 ERRORS = []
-IGNORED_PARTS = {".git", "__pycache__", ".mplconfig", ".venv", "work"}
+IGNORED_PARTS = {
+    ".git",
+    ".pip-cache",
+    ".tmp",
+    "__pycache__",
+    ".mplconfig",
+    ".venv",
+    "work",
+}
+METADATA_VARIABLE_FIGURE_SUFFIXES = {".pdf", ".svg"}
 
 
 def is_ignored(path: Path) -> bool:
@@ -82,6 +91,13 @@ if manifest_path.exists():
     for record in manifest.itertuples(index=False):
         path = REPO / record.path
         if not path.exists():
+            continue
+        if (
+            record.path.startswith("results/figures/")
+            and path.suffix.lower() in METADATA_VARIABLE_FIGURE_SUFFIXES
+        ):
+            if path.stat().st_size == 0:
+                ERRORS.append(f"empty vector figure: {record.path}")
             continue
         digest = hashlib.sha256()
         path_arg = str(path.resolve())

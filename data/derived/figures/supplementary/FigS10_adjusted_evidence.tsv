@@ -1,9 +1,0 @@
-dataset	tissue	analysis	comparison	adjustment_or_exclusion	significant_protein_rows_up_n	significant_protein_rows_down_n	TYK2_in_FDR_lt_0_05_list	direction	log2FC	adjusted_p	exact_non_significant_beta_p_public	interpretation
-PXD083842	liver	primary_unadjusted	PBC_vs_Healthy	none	964	953	True	up	0.428623282525142	0.0110299209722783	True	FDR-significant in the authors' released table
-PXD083842	liver	exclude_concurrent_MASLD	PBC_without_MASLD_vs_Healthy	exclude PBC with concurrent MASLD	340	224	False	not_reported			False	Absent from the authors' FDR<0.05-only table; exact beta and P are not public
-PXD083842	liver	age_adjusted	PBC_vs_Healthy	age	0	0	False	not_reported			False	Absent from the authors' FDR<0.05-only table; exact beta and P are not public
-PXD083842	liver	sex_adjusted	PBC_vs_Healthy	sex	456	335	False	not_reported			False	Absent from the authors' FDR<0.05-only table; exact beta and P are not public
-PXD083842	liver	BMI_adjusted	PBC_vs_Healthy	BMI	255	214	False	not_reported			False	Absent from the authors' FDR<0.05-only table; exact beta and P are not public
-PXD083842	liver	cirrhosis_adjusted	PBC_vs_Healthy	cirrhosis	908	959	True	up	0.415617813970127	0.0162081773652755	True	FDR-significant in the authors' released table
-PXD083842	liver	age_plus_sex_adjusted	PBC_vs_Healthy	age + sex	0	0	False	not_reported			False	Absent from the authors' FDR<0.05-only table; exact beta and P are not public
-PXD083842	liver	disease_specific_comparator	PBC_vs_MASLD	direct disease comparator	287	98	False	not_reported			False	Absent from the authors' FDR<0.05-only table; exact beta and P are not public

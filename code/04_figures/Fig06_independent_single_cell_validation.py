@@ -140,7 +140,7 @@ def main():
     ax_a.set_xticklabels(["Foreign antigen", "PDC-E2"])
     ax_a.set_xlim(-0.22, 1.43)
     ax_a.set_ylabel("IL12RB2 patient pseudobulk\nlog2(CPM + 0.5)")
-    ax_a.set_title("Independent PBC antigen-context test", loc="left", color=INK)
+    ax_a.set_title("Within-PBC antigen-context test", loc="left", color=INK)
     ax_a.text(0.02, 0.97,
               f"5 paired PBC patients\nMean difference={summary.mean_paired_difference:.3f}\n95% CI {summary.ci95_low:.3f} to {summary.ci95_high:.3f}\nExact sign-flip P={summary.exact_signflip_p_two_sided:.3f}",
               transform=ax_a.transAxes, va="top", fontsize=7.2, color=INK,
@@ -172,8 +172,8 @@ def main():
     ax_b.set_yticklabels([names[x] for x in b.cohort])
     ax_b.set_xlim(-0.65, 6.0)
     ax_b.set_xlabel("Within-donor IL12RB2 logCPM: lrNK − cNK")
-    ax_b.set_title("Donor-independent liver cellular-context cohorts", loc="left", color=INK)
-    ax_b.text(0.02, 0.04, "Independent primary cohorts only", transform=ax_b.transAxes,
+    ax_b.set_title("Non-overlapping liver cellular-context cohorts", loc="left", color=INK)
+    ax_b.text(0.02, 0.04, "Non-overlapping primary cohorts only", transform=ax_b.transAxes,
               ha="left", fontsize=6.8, color=MUTED,
               bbox=dict(boxstyle="round,pad=0.2", facecolor="white", edgecolor="none", alpha=0.88))
     style_axis(ax_b, "x")
@@ -229,19 +229,19 @@ def main():
     ax_d.set_title("Systematic audit of public PBC single-cell resources", loc="left", color=INK)
     legend = [Patch(facecolor="#3BAF8B", label="Yes/eligible"), Patch(facecolor="#F1C76A", label="Limited/context only"), Patch(facecolor="#D6DDE2", label="No/unavailable")]
     ax_d.legend(handles=legend, ncol=3, loc="upper center", bbox_to_anchor=(0.5, -0.14), columnspacing=1.1, handlelength=1.0)
-    ax_d.text(0.99, -0.29, "Audit updated: 20 Oct 2026 · No additional adequately replicated donor-level PBC–control cohort identified",
+    ax_d.text(0.99, -0.29, "Audit updated: Oct 20, 2026 · No additional adequately replicated donor-level PBC–control cohort identified",
               transform=ax_d.transAxes, ha="right", fontsize=6.8, color=VERMILLION, fontweight="bold")
     for spine in ax_d.spines.values():
         spine.set_visible(False)
     panel_label(ax_d, "D")
 
-    fig.suptitle("Figure 6 | Independent single-cell resource audit and cellular-context synthesis",
+    fig.suptitle("Figure 6 | External single-cell resource audit and cellular-context synthesis",
                  x=0.045, y=0.992, ha="left", fontsize=15.6, fontweight="bold", color=INK)
     fig.text(0.995, 0.005,
-             "Donor-independent evidence supports recurrent lrNK enrichment of IL12RB2; small cohort numbers and high heterogeneity preclude definitive replication.",
+             "Donor-level evidence supports recurrent lrNK enrichment of IL12RB2; small cohort numbers and high heterogeneity preclude definitive replication.",
              ha="right", fontsize=7.0, color=MUTED)
-    fig.savefig(OUT / "Fig06_independent_single_cell_boundary_locked.pdf")
-    fig.savefig(OUT / "Fig06_independent_single_cell_boundary_locked.png", dpi=300)
+    fig.savefig(OUT / "Fig06_external_single_cell_context_locked.pdf")
+    fig.savefig(OUT / "Fig06_external_single_cell_context_locked.png", dpi=300)
     plt.close(fig)
 
 

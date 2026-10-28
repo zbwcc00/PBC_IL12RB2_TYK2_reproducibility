@@ -11,9 +11,9 @@ The versioned reproducibility archive is available from Zenodo at [10.5281/zenod
 | 1000 Genomes | Phase 3 EUR, n=503 | External signed LD | Full genotype/LD panels excluded; compact derived LD blocks included |
 | FinnGen | R12 CHIRBIL_PRIM | Independent disease replication | Regional derived summaries included; official source remains authoritative |
 | HRA008003 | GSA-Human HRA008003 | PBC/control liver single-cell analysis | BAM and full objects excluded; barcodes removed from compact visualization data |
-| HRA002347/GSE270739/CELLxGENE | See source registry | External single-cell context | Aggregate donor-level results only |
+| HRA002347/GSE270739/CELLxGENE | See source registry | External single-cell context | Aggregate donor-level results included; public upstream workflows provided |
 | GEO bulk datasets | GSE119600, GSE159676, GSE79850, GSE138888 | Bulk validation and pathway meta-analysis | Derived effect tables included |
 | PRIDE | PXD083842 | Proteomic robustness and confounding audit | Derived results included; processed matrices remain at PRIDE |
-| MESA Olink/SomaScan | Study-specific release | Cross-platform pQTL comparison | Allele-aligned derived cis table included subject to source terms |
+| MESA Olink/SomaScan | Zenodo 17642645 | Cross-platform pQTL comparison | Allele-aligned derived cis table and upstream analysis code included; source files remain at Zenodo |
 
 All users must comply with the original repositories' consent, access and redistribution requirements. The MIT license in this repository applies to original code only, not to third-party data.

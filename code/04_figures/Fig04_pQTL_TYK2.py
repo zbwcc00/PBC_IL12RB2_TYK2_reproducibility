@@ -158,8 +158,8 @@ def main():
 
     fig.suptitle("Figure 4 | Cross-platform protein boundary and TYK2 human genetic evidence",x=.055,y=.992,ha="left",fontsize=15.2,fontweight="bold",color=INK)
     fig.text(.995,.008,"Protein assays do not replicate a shared IL12RB2 signal; TYK2 evidence supports a distinct, genetically anchored drug node.",ha="right",fontsize=6.8,color=MUTED)
-    fig.savefig(OUT/"Fig04_IL12RB2_direction_context_final.pdf",pad_inches=.06)
-    fig.savefig(OUT/"Fig04_IL12RB2_direction_context_final.png",dpi=300,pad_inches=.06)
+    fig.savefig(OUT/"Fig04_pQTL_TYK2_final.pdf",pad_inches=.06)
+    fig.savefig(OUT/"Fig04_pQTL_TYK2_final.png",dpi=300,pad_inches=.06)
     plt.close(fig)
 
 

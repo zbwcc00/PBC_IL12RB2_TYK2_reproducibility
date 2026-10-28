@@ -1,0 +1,5 @@
+locus	target	grade	evidence	downgrade_reason
+2p25.1	LINC00299 > ID2	Strong contrast	PP.H4 0.959 vs 0.0004	No validated therapeutic target
+1q23.1	FCRL3 / FCRL3-AS1	Regulatory unit	External molecular support; FinnGen P=0.321	Sense/antisense transcript unresolved
+18q22.2	CD226 / DOK6	Candidate unit	PP.H4 0.788–0.797; proxies P=0.296–0.467	Lead QC-removed; causal gene unresolved
+17q12	ORMDL3 / GSDMB	Ambiguous	PP.H4 0.829 vs 0.738	Same signal cannot rank causal gene

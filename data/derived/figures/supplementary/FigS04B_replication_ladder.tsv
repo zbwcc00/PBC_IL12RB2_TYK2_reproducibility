@@ -1,4 +1,0 @@
-level	item	pvalue	status
-Prespecified variant	rs6679356	2.54935e-08	Bonferroni replicated
-Regional top	rs6659932	2.7842e-09	Genome-wide significant
-Gene-level	IL12RB2	1.81e-05	BH-FDR 0.00484; Bonferroni P=0.440

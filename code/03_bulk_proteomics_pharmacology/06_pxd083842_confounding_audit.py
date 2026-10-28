@@ -430,7 +430,7 @@ batch_rows = [
     },
     {
         "audit_item": "analytical_batch_statement",
-        "value": "no batch correction; all samples from each tissue were analysed together in a single analytical run",
+        "value": "no batch correction; all samples from each tissue were analyzed together in a single analytical run",
         "status": "reported_by_authors",
         "risk": "moderate",
         "interpretation": "This reduces discrete batch concerns but does not exclude within-run order drift or preparation-day effects.",

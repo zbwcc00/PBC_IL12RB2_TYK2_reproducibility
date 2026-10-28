@@ -1,0 +1,2 @@
+comparison	observed_r_difference	paired_bootstrap_valid	paired_bootstrap_valid_fraction	bootstrap_difference_mean	bootstrap_difference_median	difference_CI95_low	difference_CI95_high	two_sided_bootstrap_p_around_zero	interpretation_rule
+FIN_minus_EUR_non_FIN	-0.1183628565863018	95233	0.95233	-0.1191944243645208	-0.1187011227262939	-0.3080298290191969	0.0887039889315885	0.2586708388898806	CI excluding zero suggests population-specific LD; rare-allele monomorphic replicates are excluded and valid fraction must be reported
