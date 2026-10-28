@@ -1,9 +1,9 @@
 {
-  "release": "1.0.0",
+  "release": "1.0.1",
   "refreshed": "2026-10-28",
   "repository": ".",
   "file_count_excluding_checksum_manifest": 317,
-  "total_bytes_excluding_checksum_manifest": 60292383,
+  "total_bytes_excluding_checksum_manifest": 59524726,
   "largest_file": "data/derived/analysis/pharmacology/tyk2_safety/locus/08_TYK2_LD_bootstrap_draws.tsv.gz",
   "largest_file_bytes": 23077895,
   "paths_ascii": true

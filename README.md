@@ -4,7 +4,7 @@
 
 This repository accompanies the manuscript **“Human genetics and liver single-cell analyses prioritize the IL12RB2–TYK2 axis for therapeutic testing in primary biliary cholangitis: a multi-cohort translational genomics study.”** It contains code, compact derived source data, figure-generation scripts, and audit records needed to inspect and reproduce the reported computational evidence.
 
-Release: **v1.0.0**. Versioned releases are archived at Zenodo under concept DOI [10.5281/zenodo.23690864](https://doi.org/10.5281/zenodo.23690864). Repository file and directory names use portable English ASCII paths. Analysis scripts derive the repository root from their own location and use repository-relative inputs and outputs.
+Release: **v1.0.1**. Versioned releases are archived at Zenodo under concept DOI [10.5281/zenodo.23690864](https://doi.org/10.5281/zenodo.23690864). Repository file and directory names use portable English ASCII paths. Analysis scripts derive the repository root from their own location and use repository-relative inputs and outputs.
 
 ## What is included
 

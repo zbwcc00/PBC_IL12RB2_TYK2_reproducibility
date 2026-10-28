@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code or derived data, please cite the associated manuscript and software release."
 title: "PBC IL12RB2-TYK2 reproducibility repository"
 type: software
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-28
 authors:
   - family-names: Zheng
